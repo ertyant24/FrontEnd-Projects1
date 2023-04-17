@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+body{
+    color: grey;
+    line-height: 1.8;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: linear-gradient(to left bottom, grey 30%, white);
+}
+
+.show-modal{
+    padding: 15px 30px;
+    background-image: linear-gradient(to left bottom, red, orange
+    );
+    border-radius: 15px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.show-modal:hover{
+    background-image: linear-gradient(to left bottom, orange,red);
+    transition: .7s;
+}
+
+.modal-hidden{
+    margin-top: 90px;
+    width: 360px;
+    height: 510px;
+    background-color: bisque;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px black;
+    position: relative;
+    bottom: 70px;
+}
+
+.modal-hidden h3{
+    font-size: 25px;
+    text-transform: capitalize;
+    color: blue;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.modal-hidden img{
+    position: relative;
+    left: 28px;
+    top: 16px;
+}
+
+.close-modal{
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    padding: 3px 12px;
+    background-color: transparent;
+    border-radius: 7px;
+    box-shadow: 2px 2px 4px black;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.close-button{
+    margin-top: 15px;
+    padding: 15px 100px;
+    margin-left: 66px;
+    border-radius: 16px;
+    background-image: linear-gradient(to left bottom, orange,red);
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.close-button:hover{
+    background-image: linear-gradient(to left bottom, red, orange
+    );
+    transition: .4s;
+}
+
+.hidden{
+    display: none;
+}

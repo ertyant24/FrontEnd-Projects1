@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+/* font-family: 'Tilt Prism', cursive; -- Css kullanımı Tilt Prism */
+/* font-family: 'Jost', sans-serif; -- Css Kullanımı Jost */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: dimgray;
+}
+
+body{
+    background-image: linear-gradient(to right top, orange, aqua);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0;
+}
+
+header .logo{
+    cursor: pointer;
+    margin-left: 35px;
+}
+
+header .link{
+    margin-right: 120px;
+    margin-top: 16px;
+}
+
+header .link a{
+    margin-left: 30px;
+}
+
+header .link a:hover{
+    color: lightcoral;
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+
+.container .text h1{
+    font-family: 'Tilt Prism', cursive;
+    font-size: 58px;
+    color: orangered;
+    opacity: 0.6;
+    letter-spacing: 6px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.container .text p{
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 38px;
+    width: 580px;
+    text-align: center;
+}
+
+.container .text .btns{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+button{
+    padding: 10px 20px;
+    margin-left: 30px;
+    border-radius: 12px;
+    border: 2px solid orangered;
+    font-family: 'Jost', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: orangered;
+    opacity: 0.9;
+    transition: 0.4s;
+    transform: translateY(-4px);
+}
+
+.container .photo{
+    text-align: center;
+}
+
+.container .photo img{
+    border-radius: 20px;
+    width: 80%;
+    height: 80%;
+}
+
+@media screen and (max-width : 1101px){
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .container .text h1{
+        margin-top: 40px;
+        font-size: 70px;
+    } 
+
+    .container .text p{
+        font-size: 20px;
+    }
+
+    .container .text .btns{
+        margin-top: 60px;
+    }
+
+    button{
+        font-size: 18px;
+    }
+
+    .container .photo{
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width : 650px){
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+
+    header .link{
+        margin-left: 110px;
+        margin-top: 20px;
+    }
+
+    .container{
+        margin-top: 35px;
+    }
+
+    .container .photo{
+        width: 450px;
+    }
+
+
+}

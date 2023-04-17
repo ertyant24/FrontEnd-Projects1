@@ -1,0 +1,192 @@
+/* Google Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* body{
+    width: 1240px;
+    padding-left: 80px;
+} */
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    margin-left: 80px;
+}
+
+.header .logo{
+    cursor: pointer;
+    padding-bottom: 10px;
+    padding-right: 100px;
+}
+
+.header .links ul{
+    display: flex;
+    list-style: none;
+    margin-right: 35px;
+    padding-right: 100px;
+}
+
+.header .links ul li{
+    margin-left: 35px;
+}
+
+.header .links ul li a{
+    color: dimgray;
+}
+
+.header .links ul li a:hover{
+    text-decoration: underline;
+}
+
+.header .icons{
+    display: flex;
+}
+
+.header .icons i{
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.header .bars i{
+    display: none;
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 40px;
+    /* margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 100px; */
+}
+
+.main .text{
+    padding-left: 130px;
+    
+}
+
+.main .text h1{
+    font-size: 4vw;
+    position: relative;
+    bottom: 60px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.main .text p{
+    font-size: 1vw;
+    position: relative;
+    bottom: 40px;
+    line-height: 24px;
+}
+
+@media screen and (max-width: 1800px){
+    .main .text p{
+        font-size: 14px;
+    }
+    .main .text h1{
+        font-size: 54px;
+    }
+}
+
+.main .img img{
+    width: 100%;
+    width: 580px;
+}
+
+.main .text button{
+    padding: 18px 54px;
+    border-radius: 16px;
+    border: none;
+    background-color: darkgreen;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+}
+
+.main .text button:hover{
+    background-color: rgb(16, 122, 16);
+    transition: 0.5s;
+}
+
+.img{
+    animation: img 5s infinite;
+}
+
+@keyframes img{
+    50%{
+        transform: translateY(-3%);
+    }
+}
+
+.section .services{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 100px;
+    padding: 10px;
+    position: relative;
+    bottom: 100px;
+    left: 120px;
+}
+
+.section .services div{
+    width: 200px;
+}
+
+.section .services .services-1 h4{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.section .services .services-1 p{
+    font-size: 13px;
+}
+
+.section .services .services-2 h4{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.section .services .services-2 p{
+    font-size: 13px;
+}
+
+.section .services .services-3 h4{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.section .services .services-3 p{
+    font-size: 13px;
+}
+
+@media screen and (max-width: 800px){
+    .header .icons{
+        display: none;
+    }
+
+    .header .links{
+        display: none;
+    }
+
+    .header .bars i{
+        display: block;
+    }
+
+    .header{
+        display: flex;
+        justify-content: space-between;
+    }
+}
