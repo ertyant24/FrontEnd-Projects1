@@ -143,15 +143,16 @@ button{
     border: 3px solid black;
     border-radius: 20px;
     box-shadow: 10px 10px 20px black;
+    margin-top: 30px;
     padding: 20px 20px;
-    margin-top: 100px;
     width: 1100px;
-    height: 500px;
+    height: 610px;
 }
 
 .btn2{
     padding: 20px 90px;
     font-size: 20px;
+   
 }
 
 .closemodal{
