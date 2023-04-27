@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="shortcut icon" href="lockedLogin.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="logo">
+                <img src="Images/trnmühendislikLogo.svg" alt="">
+            </div>
+            <div class="link">
+                <ul>
+                   <li><a href="#">Home</a></li>
+                   <li><a href="#">About</a></li>
+                   <li><a href="#">Skills</a></li>
+                   <li><a href="#">Portfolio</a></li>
+                   <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="hamburger">
+                <img src="Images/hamburger24.png" alt="">
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="main">
+            <h1>LOGİN</h1>
+            <form>
+                <div class="email">
+                    <label for="txtEmail">Email</label>
+                    <input type="email" name="" id="txtEmail">
+                </div>
+                <div class="password">
+                    <label for="txtPassword">Password</label>
+                    <input type="password" name="" id="txtPassword">
+                    
+                </div>
+                <div class="btn">
+                    <button onclick="popUpModala();return false;" class="btn1">Submit</button>
+                </div>
+            </form>
+        </div>
+        <div class="popup closemodal">
+            TRN Mühendisliğe hoşgeldiniz !
+            <div class="btn">
+                <button class="btn2">OK</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="login.js"></script>
+</body>
+</html>

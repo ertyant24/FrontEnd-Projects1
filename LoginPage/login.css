@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+/* font-family: 'Tilt Prism', cursive; -- Css kullanımı Tilt Prism */
+/* font-family: 'Jost', sans-serif; -- Css Kullanımı Jost */
+
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(to top right, orange, grey);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    border: 2px solid black;
+    box-shadow: 4px 4px 8px black;
+    border-radius: 2px;
+    opacity: inherit;
+}
+
+.header .logo{
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.header .link ul{
+    display: flex;
+    margin-right: 40px;
+}
+
+.header .link ul li{
+    margin-left: 50px;
+}
+
+.header .link ul li a{
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'Jost', sans-serif;
+}
+
+.header .link ul li a:hover{
+    text-decoration: underline;
+}
+
+.header .link ul li:hover{
+    transform: translateY(-2px);
+}
+
+.header .hamburger{
+    display: none;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    border: 1px solid black;
+    box-shadow: 4px 4px 8px black;
+    width: 300px;
+    height: 400px;
+    padding-top: 20px;
+}
+
+.main h1{
+    font-family: 'Tilt Prism', cursive;
+    margin-bottom: 36px;
+    letter-spacing: 3px;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+form .email{
+   display: flex;
+   flex-direction: column;
+   gap: 4px;
+   margin-bottom: 30px;
+   font-family: 'Jost', sans-serif;
+   letter-spacing: 1px;
+}
+
+form input{
+    width: 220px;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+
+form .password{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-bottom: 60px;
+    font-family: 'Jost', sans-serif;
+    letter-spacing: 1px;
+}
+
+form .btn{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    padding: 10px 84px;
+    background-color: bisque;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Jost', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.popup{
+    font-family: 'Jost', sans-serif;
+    font-size: 100px;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 6px;
+    border: 3px solid black;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px black;
+    padding: 20px 20px;
+    margin-top: 100px;
+    width: 1100px;
+    height: 500px;
+}
+
+.btn2{
+    padding: 20px 90px;
+    font-size: 20px;
+}
+
+.closemodal{
+    display: none;
+}

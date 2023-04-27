@@ -55,6 +55,7 @@ header .link a:hover{
     align-items: center;
     flex-wrap: wrap;
     margin-top: 70px;
+    margin-bottom: 30px;
 }
 
 .container .text h1{
