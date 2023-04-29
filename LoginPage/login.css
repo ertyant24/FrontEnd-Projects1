@@ -84,7 +84,7 @@ main{
 
 .main h1{
     font-family: 'Tilt Prism', cursive;
-    margin-bottom: 36px;
+    margin-bottom: 30px;
     letter-spacing: 3px;
     font-size: 40px;
     font-weight: 800;
@@ -151,7 +151,11 @@ button{
 
 .alert{
     margin-bottom: 18px;
-    color: red;
+    color: chocolate;
+    font-size: 14px;
+    font-weight: 800;
+    font-family: 'Jost', sans-serif;
+
 }
 
 .btn2{
