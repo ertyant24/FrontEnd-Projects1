@@ -26,10 +26,11 @@ function popUpModala(){
         cem.appendChild(alert);
         console.log("Hey");
     }
-    if(email !== null && password !== null){
-        header.classList.remove("closemodal");
-        main.classList.remove("closemodal");
-        popUpModal.classList.add("closemodal");
+    if(email != "" && password != ""){
+        console.log("Hey");
+        header.classList.add("closemodal");
+        main.classList.add("closemodal");
+        popUpModal.classList.remove("closemodal");
     }
 }
 
