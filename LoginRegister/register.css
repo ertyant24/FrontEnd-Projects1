@@ -1,0 +1,231 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("https://fastly.picsum.photos/id/301/4752/3168.jpg?hmac=dIrKsPA8tl4UMnxGn-DOdnez3VS9mISb4_dYwLRnRps");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    gap: 710px;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+/* .header .links{
+    position: relative;
+    top: 20px;
+    left: 30px;
+} */
+
+.header .links ul{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.header .links ul li a{
+    color: greenyellow;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    text-shadow: 2px 2px 4px black;
+}
+
+.header .links ul li a:hover{
+    text-decoration: underline;
+}
+
+.header .links ul li:hover{
+    transform: translateY(1px);
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to top rigth, darkblue, purple);
+    color: greenyellow;
+    padding: 16px;
+    border-radius: 20px;
+}
+
+.search :is(input,button){
+    color: inherit;
+    border: none;
+    background: transparent;
+    outline: none;
+    font-size: 20px;
+}
+
+.searchinput{
+    width: 0;
+    transition: width .5s;
+}
+
+.btnsearch{
+    display: grid;
+    place-items: center;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: color .3s;
+    text-shadow: 1px 1px 2px black;
+}
+
+.search:focus-within input{
+    width: 100px;
+    background-color: greenyellow;
+    border-radius: 30px;
+    padding: 5px 10px;
+    color: black;
+    font-size: 14px;
+}
+
+.container{
+    margin-top: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 300px;
+    align-items: center;
+    /* border: 3px solid black; */
+    /* box-shadow: 2px 2px 4px brown; */
+    width: 1400px;
+    height: 500px;
+}
+
+.leftpart{
+    margin-left: 180px;
+    color: yellowgreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+    text-shadow: 3px 3px 4px black;
+    position: relative;
+    top: 0;
+    transition: 1.3s ease;
+}
+
+.leftpart-transition{
+    top: -20px;
+}
+
+.leftpart .logo i{
+    position: relative;
+    bottom: 10px;
+}
+
+.leftpart .logo span{
+    position: relative;
+    bottom: 13px;
+    margin-left: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    
+}
+
+.leftpart .baslik h1{
+    font-style: italic;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.leftpart .icons ul{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.leftpart .icons ul li a{
+    color: yellowgreen;
+}
+
+.rightpart{
+    background: linear-gradient(to top right, orange, purple);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-right: 200px;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 2px 2px 8px black;
+    padding: 60px 80px;
+    text-shadow: 3px 3px 8px black;
+    color: yellowgreen;
+    transition: 1.3s ease;
+    position: relative;
+    top: 0;
+}
+
+.rightpart-transition{
+    top: -20px;
+}
+
+.rightpart .baslik{
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.rightpart .form{
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+.rightpart .form label{
+    position: relative;
+    top: 20px;
+    pointer-events: none;
+    transition: .8s ease;
+}
+
+.rightpart .form input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 4px 8px;
+}
+
+.rightpart .form input:focus{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+}
+
+.rightpart .btn button{
+    padding: 3px 48px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: transparent;
+    border-radius: 25px;
+    border: 2px solid yellowgreen;
+    box-shadow: 2px 2px 4px black;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    letter-spacing: 2px;
+}
+
+

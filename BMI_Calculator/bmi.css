@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+/* font-family: 'Tilt Prism', cursive; -- Css kullanımı Tilt Prism */
+/* font-family: 'Jost', sans-serif; -- Css Kullanımı Jost */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(healthy-lunch-go-packed-lunch-box.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    top: 180px;
+    left: 220px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 4px;
+    padding: 30px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+header .baslik{
+    text-align: center;
+    font-family: 'Tilt Prism', cursive;
+    font-size: 28px;
+    font-style: normal;
+    letter-spacing: 3px;
+}
+
+main .container .row{
+    /* justify-content: center;
+    align-items: center; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 10px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+}
+
+.container .row input{
+    width: 78%;
+    height: 4px;
+    appearance: none;
+    background-color: dimgray;
+    border-radius: 10px;
+    outline: none;
+}
+
+.container .row span{
+    margin-left: 8px;
+    position: relative;
+    top: 2px;
+}
+
+.container .row i{
+    margin-right: 4px;
+    position: relative;
+    top: 3px;
+}
+
+.footer{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-top: 30px;
+    font-family: 'Jost', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.footer #health-status{
+    font-style: italic;
+}
