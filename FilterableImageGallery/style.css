@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background: #7bdbfd;
+    position: relative;
+    margin-bottom: 0.6rem;
+}
+
+html{
+    font-size: 15px;
+    font-family: 'Dosis', sans-serif;
+    letter-spacing: 1.6px;
+}
+
+button{
+    box-shadow: 1px 1px 1px 1px black;
+    margin-left: 0.7rem;
+    margin-bottom: 0.7rem;
+}
+
+/* .filter_buttons{
+    position: relative;
+    top: 5rem;
+    left: 3rem;
+} */
+
+.cards{
+    display: flex;
+    flex-basis: 300px;
+}
+
+.products{
+    background: #a5ab8a;
+    margin-left: 2.2rem;
+    margin-bottom: 2.6rem;
+    font-size: 0.9rem;
+}
+
+.hide{
+    display: none;
+}
+
+.phones_img{
+    width: 100%;
+    height: 24rem;
+    object-fit: cover;
+}
+

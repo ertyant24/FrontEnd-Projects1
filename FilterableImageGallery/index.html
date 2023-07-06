@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Filterable Image Gallery</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+
+    <!-- Special Css -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- sayfa iconu -->
+    <link
+      rel="shortcut icon"
+      href="Images/shoppinghead.ico"
+      type="image/x-icon"
+    />
+  </head>
+
+  <body>
+      <!-- Filter Buttons -->
+      <div class="container mt-5 ms-5">
+        <div class="filter_buttons">
+          <button class="active btn btn-primary btn-lg" data-name = "all">Show All</button>
+          <button class="btn btn-success btn-lg" data-name = "shoes">Shoes</button>
+          <button class="btn btn-warning btn-lg" data-name = "clothes">Clothes</button>
+          <button class="btn btn-secondary btn-lg" data-name = "watches">Watches</button>
+          <button class="btn btn-danger btn-lg" data-name = "phones">Phones</button>
+        </div>
+      </div>
+        
+
+      <!-- Images Cards -->
+      <div class="container mt-5 ms-4">
+        <div class="row">
+
+          <!-- Phones -->
+            <div class="col-xl-3 col-md-6 col-sm-12 filter_cards">
+              <div class="card card- products" data-name="phones" style="width: 18rem;">
+                <img src="Images/Phones/phone_1.jpg" class="card-img-top phones_img" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Phone</h3>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-xl-3 col-md-6 col-sm-12 filter_cards">
+              <div class="card products" data-name="phones" style="width: 18rem;">
+                <img src="Images/Phones/phone_2.jpg" class="card-img-top phones_img" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Phone</h3>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-xl-3 col-md-6 col-sm-12 filter_cards">
+              <div class="card products" data-name="phones" style="width: 18rem;">
+                <img src="Images/Phones/phone_3.jpg" class="card-img-top phones_img" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Phone</h3>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-xl-3 col-md-6 col-sm-12 filter_cards">
+              <div class="card products" data-name="phones" style="width: 18rem;">
+                <img src="Images/Phones/phone_4.jpg" class="card-img-top phones_img" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Phone</h3>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+
+        <!-- Watches -->
+          <div class="col-xl-3 col-md-6 col-sm-12 filter_cards">
+            <div class="card products" data-name="watches" style="width: 18rem;">
+              <img src="Images/Watches/watch_1.jpg" class="card-img-top phones_img" alt="...">
+              <div class="card-body">
+                <h3 class="card-title">Watch</h3>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 col-sm-12 filter_cards">
+            <div class="card products" data-name="watches" style="width: 18rem;">
+              <img src="Images/Watches/watch_2.jpg" class="card-img-top phones_img" alt="...">
+              <div class="card-body">
+                <h3 class="card-title">Watch</h3>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Shoes -->
+            <div class="col-xl-3 col-md-6 col-sm-12 filter_cards">
+              <div class="card products" data-name = "shoes" style="width: 18rem;">
+                <img src="Images/Shoes/shoes_1.jpg" class="card-img-top phones_img" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Shoes</h3>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-xl-3 col-md-6 col-sm-12 filter_cards">
+              <div class="card products" data-name = "shoes" style="width: 18rem;">
+                <img src="Images/Shoes/shoes_2.jpg" class="card-img-top phones_img" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Shoes</h3>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-xl-3 col-md-6 col-sm-12 filter_cards">
+              <div class="card products" data-name = "shoes" style="width: 18rem;">
+                <img src="Images/Shoes/shoes_3.jpg" class="card-img-top phones_img" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Shoes</h3>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-xl-3 col-md-6 col-sm-12 filter_cards">
+              <div class="card products" data-name = "shoes" style="width: 18rem;">
+                <img src="Images/Shoes/shoes_4.jpg" class="card-img-top phones_img" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Shoes</h3>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-xl-3 col-md-6 col-sm-12 filter_cards">
+              <div class="card products" data-name = "shoes" style="width: 18rem;">
+                <img src="Images/Shoes/shoes_5.jpg" class="card-img-top phones_img" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Shoes</h3>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          
+          <!-- Clothes -->
+            <div class="col-xl-3 col-md-6 col-sm-12 filter_cards">
+              <div class="card products" data-name="clothes" style="width: 18rem;">
+                <img src="Images/Clothes/clothes_1.jpg" class="card-img-top phones_img" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Clothes</h3>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-xl-3 col-md-6 col-sm-12 filter_cards">
+              <div class="card products" data-name="clothes" style="width: 18rem;">
+                <img src="Images/Clothes/clothes_2.jpg" class="card-img-top phones_img" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Clothes</h3>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-xl-3 col-md-6 col-sm-12 filter_cards">
+              <div class="card products" data-name="clothes" style="width: 18rem;">
+                <img src="Images/Clothes/clothes_3.jpg" class="card-img-top phones_img" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Clothes</h3>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          
+
+        </div>
+    </div>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="index.js"></script>
+
+  </body>
+</html>
